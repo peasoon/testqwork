@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" id="main">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Main page</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container header-container">
+          <nav class="header__menu header-menu">
+            <ul class="header-menu__list">
+              <li class="header-menu__item">
+                <a class="header-menu__link" href="#">Сыры</a>
+              </li>
+              <li class="header-menu__item">
+                <a class="header-menu__link" href="#">Мясные деликатесы</a>
+              </li>
+              <li class="header-menu__item">
+                <a class="header-menu__link" href="#">Овощи</a>
+              </li>
+              <li class="header-menu__item">
+                <a class="header-menu__link" href="#">Молочные продукты</a>
+              </li>
+              <li class="header-menu__item">
+                <a class="header-menu__link" href="#">Фрукты</a>
+              </li>
+              <li class="header-menu__item">
+                <a class="header-menu__link" href="#">Кондитерская</a>
+              </li>
+              <li class="header-menu__item">
+                <a class="header-menu__link" href="#">Доставка</a>
+              </li>
+            </ul>
+						<div class="burger header__burger">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+          </nav>
+        </div>
+      </header>
+      <main class="products">
+        <section class="products">
+          <div class="products__image">
+            <img src="./img/products/bg.jpg" alt="Фоновое изображение" />
+            <div class="container products-container">
+              <div class="products__text products-text">
+                <div class="products-text__title">
+                  <span>Свежие продукты</span>с рынка до ЖК «Кварталы 21/19»
+                  <span>и «Среда»</span>
+                </div>
+                <button class="primary-btn products-text__btn">
+                  <img
+                    src="./img/products/toggle.png"
+                    alt="Кнопка переключения"
+                  />Каталог
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="description">
+          <div class="container">
+            <div class="description__title">Почему мы?</div>
+            <div class="description__cards description-cards">
+              <!--card-->
+              <div class="description-cards__item dc-item">
+                <div class="dc-item__image">
+                  <img src="./img/description/car.svg" alt="Иконка товара" />
+                </div>
+                <div class="dc-item__info">
+                  <p><span>Бесплатная доставка</span></p>
+                  <p>для жителей ЖК</p>
+                  «21/19» и ЖК «Среда»
+                </div>
+              </div>
+              <!--end of card-->
+              <!--card-->
+              <div class="description-cards__item dc-item">
+                <div class="dc-item__image">
+                  <img src="./img/description/cheese.svg" alt="Иконка товара" />
+                </div>
+                <div class="dc-item__info">
+                  <span>Большой выбор</span>
+                  <p>эксклюзивных</p>
+                  сыров
+                </div>
+              </div>
+              <!--end of card-->
+              <!--card-->
+              <div class="description-cards__item dc-item">
+                <div class="dc-item__image">
+                  <img src="./img/description/carrot.png" alt="Иконка товара" />
+                </div>
+                <div class="dc-item__info">
+                  Собираем для вас
+                  <p>только <span>свежие</span></p>
+                  <span>фрукты и овощи</span>
+                </div>
+              </div>
+              <!--end of card-->
+              <!--card-->
+              <div class="description-cards__item dc-item">
+                <div class="dc-item__image">
+                  <img src="./img/description/gloves.png" alt="Иконка товара" />
+                </div>
+                <div class="dc-item__info">
+                  <p>Работаем</p>
+                  <span>в перчатках</span>
+                </div>
+              </div>
+              <!--end of card-->
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer"></footer>
+    </div>
+    <script src="./scripts.js"></script>
+  </body>
+</html>

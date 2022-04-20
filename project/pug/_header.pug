@@ -1,0 +1,15 @@
+mixin link(href, text)
+	li.header-menu__item
+		a(href=href).header-menu__link= text
+
+
+.container
+	nav.header__menu.header-menu
+		ul.header-menu__list
+			+link("#","Сыры")
+			+link("#","Мясные деликатесы")
+			+link("#","Овощи")
+			+link("#","Молочные продукты")
+			+link("#","Фрукты")
+			+link("#","Кондитерская")
+			+link("#","Доставка")

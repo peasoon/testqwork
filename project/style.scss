@@ -1,0 +1,17 @@
+@import "./scss/_reset.scss";
+@import "./_fonts.scss";
+@import "./scss/_variables.scss";
+@import "./scss/_global.scss";
+@import "./scss/_outerstyles.scss";
+@import "./scss/_header.scss";
+@import "./scss/_products.scss";
+@import "./scss/_burger.scss";
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: $DINRoundPro;
+  color: $text;
+}

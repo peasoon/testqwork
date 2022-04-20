@@ -1,0 +1,14 @@
+extends ./pug/_layout.pug
+
+block variables
+	- var title = 'Main page'
+	- var atrs={id:'main'}
+
+
+block content
+	.wrapper
+		header.header
+			include ./pug/_header.pug
+		main.products
+			include ./pug/_products.pug
+		footer.footer

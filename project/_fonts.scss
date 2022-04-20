@@ -1,0 +1,23 @@
+@font-face {
+  font-family: DINRoundPro;
+  font-style: normal;
+  font-weight: 500;
+  src: url("./fonts/DINRoundPro-Medi.woff") format("woff"), url("./fonts/DINRoundPro.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: DINRoundPro;
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/DINRoundPro.woff") format("woff"), url("./fonts/DINRoundPro.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: DINRoundPro;
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/DINRoundPro-Bold.woff") format("woff"), url("./fonts/DINRoundPro.woff2") format("woff2");
+  font-display: swap;
+}

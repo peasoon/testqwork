@@ -1,0 +1,30 @@
+mixin card(src,text)
+	//card
+	.description-cards__item.dc-item
+		.dc-item__image
+			img(src=src, alt="Иконка товара")
+		.dc-item__info!= text
+	//end of card
+
+section.products
+	.products__image
+		img(src="./img/products/bg.jpg", alt="Фоновое изображение")
+		.container.products-container
+			.products__text.products-text
+				.products-text__title
+					span Свежие продукты
+					|с рынка до ЖК «Кварталы 21/19» 
+					span и «Среда»
+				button.primary-btn.products-text__btn
+					img(src="./img/products/toggle.png", alt="Кнопка переключения") 
+					|Каталог
+section.description 
+	.container
+		.description__title 
+			|Почему мы?
+		.description__cards.description-cards 
+			+card("./img/description/car.svg","<p><span>Бесплатная доставка</span></p> <p>для жителей ЖК</p> «21/19» и ЖК «Среда»")
+			+card("./img/description/cheese.svg","<span>Большой выбор</span> <p>эксклюзивных</p> сыров")
+			+card("./img/description/carrot.png","Собираем для вас <p>только <span>свежие</span></p> <span>фрукты и овощи</span>")
+			+card("./img/description/gloves.png","<p>Работаем</p> <span>в перчатках</span>")
+	

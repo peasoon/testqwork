@@ -1,0 +1,37 @@
+@import "./_variables.scss";
+
+.wrapper {
+  max-width: 1680px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: calc(#{$content-width} + 40px);
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.primary-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 193px;
+  height: 53px;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 256%;
+  color: #fff;
+  background: linear-gradient(to right, #ff9b25, #ffd21d);
+  border-radius: 4px;
+  transition: 0.4s;
+
+  &:hover {
+    filter: brightness(85%);
+  }
+
+  img {
+    width: auto !important;
+    margin-right: 0.7rem;
+		min-height: auto !important;
+  }
+}
